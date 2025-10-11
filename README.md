@@ -35,12 +35,8 @@ Proteins are composed of sequences of amino acids, and their structure plays a c
 
 ---
 
-## 🔍 Explainability (XAI)
-
-To better understand and interpret the predictions of the models, **Explainable AI (XAI)** techniques were applied using the **[LIME (Local Interpretable Model-Agnostic Explanations)](https://github.com/marcotcr/lime)** library.  
-This helps in identifying which parts of the protein sequences contribute the most to the classification decision, providing biological interpretability alongside model performance.
-
-## 📊 Evaluation Metrics
+<!-- TODO: Update metrics later -->
+<!-- ## 📊 Evaluation Metrics
 
 ### 🔹 Machine Learning Results
 
@@ -71,7 +67,7 @@ This helps in identifying which parts of the protein sequences contribute the mo
 | ProtBERT | 61.02%   | 61.28%    | 61.02% | 59.15%   |
 | ESM2     | 73.08%   | 74.03%    | 73.08% | 73.22%   |
 
----
+--- -->
 
 ## 🧪 Dataset
 
