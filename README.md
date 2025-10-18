@@ -1,4 +1,4 @@
-# 🧬 Structural Protein Sequences Classification
+# 🧬 Protein Sequences Classification
 
 This project explores the application of **Machine Learning (ML)**, **Deep Learning (DL)**, and **Transfer Learning (TL)** techniques to classify **structural protein sequences**. By treating protein sequences like natural language, we leverage NLP-inspired approaches to identify and classify structural types based on sequence patterns.
 
@@ -33,47 +33,44 @@ Proteins are composed of sequences of amino acids, and their structure plays a c
 
 ---
 
----
-
-<!-- TODO: Update metrics later -->
-<!-- ## 📊 Evaluation Metrics
+## 📊 Evaluation Metrics
 
 ### 🔹 Machine Learning Results
 
-| Model               | Accuracy | Precision | Recall | F1-Score |
-| ------------------- | -------- | --------- | ------ | -------- |
-| Naive Bayes         | 87.93%   | 88.17%    | 87.93% | 87.93%   |
-| XGBoost             | 87.73%   | 87.71%    | 87.73% | 87.29%   |
-| Logistic Regression | 89.97%   | 90.69%    | 89.97% | 90.04%   |
-| KNN                 | 90.01%   | 91.23%    | 90.01% | 89.52%   |
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Naive Bayes         | 86.53%   |
+| XGBoost             | 81.26%   |
+| Logistic Regression | 90.45%   |
+| KNN                 | 75.54%   |
 
 ---
 
 ### 🔹 Deep Learning Results
 
-| Model  | Accuracy | Precision | Recall | F1-Score |
-| ------ | -------- | --------- | ------ | -------- |
-| BiLSTM | 88.09%   | 87.50%    | 88.09% | 87.54%   |
-| CNN    | 69.07%   | 67.71%    | 69.07% | 67.16%   |
-| RNN    | 39.39%   | 38.84%    | 39.39% | 36.46%   |
-| GRU    | 71.57%   | 69.93%    | 71.57% | 69.67%   |
+| Model  | Accuracy |
+| ------ | -------- |
+| BiLSTM | 84.19%   |
+| CNN    | 82.43%   |
+| GRU    | 84.71%   |
+| RNN    | 50.67%   |
 
 ---
 
 ### 🔹 Transfer Learning Results
 
-| Model    | Accuracy | Precision | Recall | F1-Score |
-| -------- | -------- | --------- | ------ | -------- |
-| ProtBERT | 61.02%   | 61.28%    | 61.02% | 59.15%   |
-| ESM2     | 73.08%   | 74.03%    | 73.08% | 73.22%   |
+| Model    | Accuracy |
+| -------- | -------- |
+| ProtBERT | 82.79%   |
+| ESM2     | 96.43%   |
 
---- -->
+---
 
 ## 🧪 Dataset
 
 -   **Source**: [Kaggle - Protein Dataset](https://www.kaggle.com/datasets/shahir/protein-data-set)
--   **Classes**: 32
--   **Size**: 270,912 sequences
+-   **Classes**: 8
+-   **Size**: 67728 sequences
 
 ---
 
@@ -86,37 +83,8 @@ Proteins are composed of sequences of amino acids, and their structure plays a c
 -   **XGBoost**
 -   **PyTorch**
 -   **Transformers (Hugging Face)**
--   **LIME (for Explainable AI)**
 
 ---
-
-## 🚀 How to Run (using Anaconda)
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/naman22a/Structural-Protein-Sequences-Classification
-cd Structural-Protein-Sequences-Classification
-```
-
-2. **Create and activate a conda environment**
-
-```bash
-conda create -n protein-nlp python=3.10 -y
-conda activate protein-nlp
-```
-
-3. **Install dependencies**
-
-```bash
-conda env create -f environment.yml
-```
-
-4. **Run the training script**
-
-```bash
-jupyter notebook
-```
 
 ## 📫 Stay in touch
 
@@ -125,4 +93,4 @@ jupyter notebook
 
 ## 🗒️ License
 
-Structural Protein Sequences Classification is licensed under [GPL V3](./LICENSE)
+Protein Sequences Classification is licensed under [GPL V3](./LICENSE)
